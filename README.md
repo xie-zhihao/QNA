@@ -1,5 +1,4 @@
-# QNA
-QuantumNeuro Architecture Analytics Lab
+# QNA:QuantumNeuro Architecture Analytics Lab
 
 A research framework system dedicated to exploring the intersection of quantum many-body physics and neural architecture design.
 QNA provides an accelerated data analytics and storage system to benchmark, analyze, and optimize modular neural network architectures for NQS(Neural quantum states) across diverse Hamiltonians.
@@ -92,7 +91,7 @@ QNA provides an accelerated data analytics and storage system to benchmark, anal
 ________________________________________
 ### Hypothesis Example
 Model: 1D Transverse-Field Ising Model  
-Hamiltonian: H = -J Σ σz_i σz_{i+1} - h Σ σx_i  
+Hamiltonian: $H = -J Σ σz_i σz_{i+1} - h Σ σx_i$  
 Parameters: J = 1.0, h = 0.8, L = 16
 
 ## Architecture

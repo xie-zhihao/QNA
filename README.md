@@ -6,7 +6,7 @@ QNA provides an accelerated data analytics and storage system to benchmark, anal
 
 
 
-## 🧩 **Input Unit: Quantum Hamiltonian Library**
+##  **Input Unit: Quantum Hamiltonian Library**
 
 ### Supported Hamiltonians
 - **Ising model** (1D, 2D, transverse field)
@@ -27,7 +27,7 @@ QNA provides an accelerated data analytics and storage system to benchmark, anal
 
 ---
 
-## 🧠 **Architecture Modules Unit: Neural Quantum Architectures**
+##  **Architecture Modules Unit: Neural Quantum Architectures**
 
 ### Core Components
 - **Neural network configuration**
@@ -52,7 +52,7 @@ QNA provides an accelerated data analytics and storage system to benchmark, anal
 
 ---
 
-## ⚛️ **Output Unit: Quantum Observables & Correlation Metrics**
+##  **Output Unit: Quantum Observables & Correlation Metrics**
 
 ### Observable Outputs
 - Ground-state energy: **E₀**  
@@ -65,7 +65,7 @@ QNA provides an accelerated data analytics and storage system to benchmark, anal
 
 ---
 
-## 📊 **Statistical Analytics**
+##  **Statistical Analytics**
 
 - **Learning curve:** energy or loss vs. iteration  
 - **Variance & autocorrelation time:** sampling stability  
@@ -85,5 +85,32 @@ QNA provides an accelerated data analytics and storage system to benchmark, anal
 
 ---
 
-### 🧮 **Composite Performance Analysis**
+###  **Composite Performance Analysis**
 > Assign weights to the above metrics and compute a **weighted composite performance score** for holistic evaluation.
+
+
+________________________________________
+### Hypothesis Example
+Model: 1D Transverse-Field Ising Model  
+Hamiltonian: H = -J Σ σz_i σz_{i+1} - h Σ σx_i  
+Parameters: J = 1.0, h = 0.8, L = 16
+
+## Architecture
+Input Encoding → 1D Convolution → Attention Layer → Variational Layer → Symmetry Layer → Output (Energy)
+
+Optimizer: Adam (lr = 0.002)  
+Epochs: 1500
+
+## Output
+Ground-state Energy: -15.87  
+Spin Correlation: 0.74  
+Fidelity: 99.6%
+
+## Performance
+Accuracy: 0.98  
+Convergence: 0.90  
+Overall Score: 0.92
+
+
+
+
